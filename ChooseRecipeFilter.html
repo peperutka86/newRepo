@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+          <link rel="stylesheet" href="ChooseRecipeFilter.css">
+   
+</head>
+
+
+<body>
+    
+  <nav class="navbar  navbar-expand-sm navbar-light ">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item active"> -->
+          <!--<a class="nav-link" href="#">Choose Recipe <span class="sr-only">(current)</span></a>-->
+          <li class="nav-item -auto mt-2">
+            <!--<a class="nav-link" href="#">Make Recipe</a>-->
+            <a href="./Index.html">Home</a>
+          </li>
+          <li class="nav-item -auto mt-2" >
+          <a href="./ChooseRecipeFilter.html">Choose Recipe</a>
+          
+        </li>
+        <li class="nav-item -auto mt-2">
+          <!--<a class="nav-link" href="#">Make Recipe</a>-->
+          <a href="./MakeR.html">Make Recipe</a>
+        </li>
+          
+         <!---- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Category
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Breakfast</a>
+              <a class="dropdown-item" href="#">Lunch</a>
+              <a class="dropdown-item" href="#">Dinner</a>
+            </div>
+          </li> -->
+         
+           <li>
+          <div class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4">Login</a>
+                    <div class="dropdown-menu action-form">
+              <form action="/examples/actions/confirmation.php" method="post">
+                <p class="hint-text">Sign in with your social media account</p>
+                <div class="form-group social-btn clearfix">
+                  <a href="#" class="btn btn-light facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-light twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+                <div class="or-seperator"><b>or</b></div>
+                
+                
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+                <input type="submit" class="btn btn-light btn-block" value="Login">
+                <div class="text-center mt-2">
+                  <a href="#">Forgot Your password?</a>
+                </div>
+              </form>
+                    </div>
+          </div>
+          </li>
+         <li>
+          <div class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="btn btn-light dropdown-toggle sign-up-btn">Sign up</a>
+                    <div class="dropdown-menu action-form">
+              <form action="/examples/actions/confirmation.php" method="post">
+                <p class="hint-text">Fill in this form to create your account!</p>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="First name" required="required">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Last name" required="required">
+                </div>
+                
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                </div>
+                <div class="form-group">
+                  <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+                </div>
+                <input type="submit" class="btn btn-light btn-block" value="Sign up">
+              </form>
+            </div>
+          </div>
+            </div>
+      </div>
+    </li>    
+        </ul>
+    </nav>
+       
+    <div class="card text-centered"  style="width: 100%">
+      <div class="card-body">
+        <h1 class="card-title text-centered">Choose Recipe</h1>
+        <br>
+        
+
+
+         
+   <div id="cel">
+              
+     <input id="inputMessage"onkeyup="searchProduct()"   placeholder ="Type here to search"><br><br>
+       </div>
+         </div>
+           </div>
+
+   <div class="container" id="Search">
+     <div class="Item">
+                
+      <div class="row">
+       <div class="col-sm-4 Item">
+
+         <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./images/pancakes1.jpg" alt="Card image cap">
+           <div class="card-body">
+              
+               <a href="./Pancakes.html" class="card-link"><h4>Fruit Pancakes</h4></a>
+                  </div>
+                     </div>
+                        </div>
+     <div class="col-sm-4 Item">
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="./images/curry.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a href="./ChickenCurry.html" class="card-link"><h4>Chicken Curry</h4></a>
+                
+                  </div>
+                      </div>
+                         </div>
+      <div class="col-sm-4 Item">
+       <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="./images/apple.jpg" alt="Card image cap">
+             <div class="card-body">
+              <a href="./AppleWlalnut.html" class="card-link"><h4>Apple-Walnut Salad</h4></a>
+               
+                   </div>
+                    </div>
+                     </div>
+       <div class="col-sm-4 Item">
+            <div class="card" style="width: 18rem;">
+             <img class="card-img-top" src="./images/Brocolli.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <a href="./Broccoli.html" class="card-link"><h4>Easy Beef and Broccoli</h4></a>
+                    </div>
+                         </div>
+                           </div>
+         <div class="col-sm-4 Item">
+             <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./images/mushrooms.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a href="./Mushrooms.html" class="card-link"><h4> Garlic Mushrooms</h4></a>
+                      </div>
+                         </div>
+                          </div><br>
+         <div class="col-sm-4 Item">
+               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./images/peppers.jpg" alt="Card image cap">
+                      <div class="card-body">
+                           <a href="./BellPeppers.html" class="card-link"><h4>Stuffed Bell Peppers</h4></a>
+                                 </div>
+                                   </div>
+                                     </div>
+                                       </div>
+                                         </div>
+                                         </div>
+
+                                          
+                                            
+                                  
+          
+                    <script>
+  
+// JavaScript code 
+                     function searchProduct() { 
+                     let input = document.getElementById('inputMessage').value 
+                     input=input.toLowerCase(); 
+                     let x = document.getElementsByClassName('Item'); 
+
+                      for (i = 0; i < x.length; i++) {  
+                          if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+                           x[i].style.display="none"; 
+                             } 
+                      else { 
+                          x[i].style.display='block'; 
+                                          
+                             } 
+                          } 
+                       } 
+                        </script>
+                                              
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        
+</body>
+</html>

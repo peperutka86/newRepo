@@ -1,0 +1,30 @@
+
+body {
+    background: url(./images/frontimg.jpg) no-repeat top;
+    background-color: #A9A37F;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+  #main-wrap {
+    background-color: rgba(255,255,255, 0.7);
+  }
+  p {
+    padding: 35px;
+    text-align: justify;
+    font-size: x-large;
+  }
+  h1  {
+    text-align: center;
+    color:rgb(148, 143, 143);
+  }
+  
+  img {
+    width: 19%;
+  }
+  
+  .copy {
+    text-align: right;
+    margin-top: 20px;
+  }
